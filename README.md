@@ -52,9 +52,6 @@ This project demonstrates **clean topology, procedural / iterative modeling, Arn
 ├── .gitignore
 └── README.md
 
-yaml
-复制
-编辑
 
 > Rename any generic filenames to descriptive ones (e.g. `beauty_render_front.jpg`, `wireframe_overlay.jpg`, `uv_layout.jpg`) for maximum clarity.
 
@@ -113,40 +110,42 @@ cmds.setAttr(f"{shader}.specular.IOR", 1.5)
 cmds.setAttr(f"{shader}.transmission.weight", 1)
 cmds.setAttr(f"{shader}.transmission.IOR", 1.5)
 cmds.setAttr(f"{shader}.transmission.color", 1, 1, 1, type="double3")
+
+```
 🎨 Composition Notes
 Focal Flow: Stair apex + sphere bounce path near rule‑of‑thirds intersections.
 
 Layering: Foreground (glass reflections) → mid (stair geometry) → micro (snow drift) → accent (clock face).
 
-Contrast: Hard specular glass vs matte architectural surfaces for silhouette clarity.
+Contrast: Specular glass vs matte architecture for silhouette clarity.
 
-Color Accents: Festive green/red elements break neutral stone palate.
+Color Accents: Festive greens/reds punctuate neutral structure.
 
 🧠 Reflection / Future Improvements
 Area	Next Step
-Materials	Add micro‑roughness/variation maps for realism
-Animation	Refine squash & stretch timing; secondary motion
-FX	Light volumetric fog / subtle interior god ray
-Proceduralism	Scripted param stair generator (step count / curvature)
-Texturing	Substance Painter pass for wear / edge breakup
-Presentation	Add wireframe overlay & UV layout sheet renders
+Materials	Add micro‑roughness / variation maps for realism
+Animation	Refine squash & stretch timing; add secondary motion
+FX	Subtle interior volumetric / god ray
+Proceduralism	Script param staircase generator (step count)
+Texturing	Substance pass for edge wear & breakup
+Presentation	Add wireframe overlay & UV layout sheet
 
 🚀 How to Use / View
-Open scenes/impossible_staircase_final.mb in Maya (matching version or later).
+Open scenes/impossible_staircase_final.mb in Maya.
 
-Play timeline to view bounce + snow MASH system (ensure MASH plugins loaded).
+Play timeline (ensure MASH plugins loaded) to preview bounce + snow.
 
-Render turntable with Arnold (optionally replace environment HDRI).
+Render turntable with Arnold (swap HDRI if desired).
 
 View exports/turntable.mp4 or assets/turntable.gif for quick preview.
 
-Read workflow notes in docs/design_process.pdf for deeper process context.
+Read docs/design_process.pdf for process notes.
 
 🗃 Large / Optional Assets
-If any large raw video (original .mov) or high‑resolution caches were removed to meet GitHub file size limits, they can be distributed via GitHub Release assets or cloud storage. Add links here if provided:
+If large raw assets were removed (e.g. original .mov, caches), host them via GitHub Release or cloud:
 
-Asset	Location	Notes
-High‑res turntable (ProRes)	(link or Release tag)	Not in repo
+Asset	Location / Link	Notes
+High‑res turntable (ProRes)	(Release tag or link)	Not in repo
 Raw simulation cache	(link)	Optional
 
 📚 References & Inspiration
@@ -156,9 +155,9 @@ Wikipedia Contributors (2021) Ascending and Descending. https://en.wikipedia.org
 
 Penrose Steps / Escher illusion concepts – educational reinterpretation.
 
-Big Ben photography references (public / study use).
+Big Ben photographic references (public / study use).
 
-Reference images (if any) are used strictly for educational look‑dev purposes and are not redistributed commercially.
+Reference images are used strictly for educational look‑dev purposes and not for commercial redistribution.
 
 👤 Author
 Flora Xohrat
@@ -166,3 +165,6 @@ MSc Computer Animation & VFX – Bournemouth University
 GitHub: Flora9822
 
 Academic modeling & presentation exercise exploring illusion architecture, procedural instancing, and cinematic look‑dev.
+
+
+---
