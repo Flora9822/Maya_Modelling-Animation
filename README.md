@@ -112,59 +112,61 @@ cmds.setAttr(f"{shader}.transmission.IOR", 1.5)
 cmds.setAttr(f"{shader}.transmission.color", 1, 1, 1, type="double3")
 
 ```
-🎨 Composition Notes
-Focal Flow: Stair apex + sphere bounce path near rule‑of‑thirds intersections.
+## 🎨 Composition
 
-Layering: Foreground (glass reflections) → mid (stair geometry) → micro (snow drift) → accent (clock face).
+**Focal Flow**  
+Stair apex + main bounce arc aligned near rule‑of‑thirds hotspots for immediate visual draw.
 
-Contrast: Specular glass vs matte architecture for silhouette clarity.
+**Layering**  
+Glass shell (reflection) → internal staircase volume → drifting snow → clock face accent builds depth.
 
-Color Accents: Festive greens/reds punctuate neutral structure.
+**Contrast**  
+Specular transparent glass against matte/less reflective architectural surfaces improves silhouette readability.
 
-🧠 Reflection / Future Improvements
-Area	Next Step
-Materials	Add micro‑roughness / variation maps for realism
-Animation	Refine squash & stretch timing; add secondary motion
-FX	Subtle interior volumetric / god ray
-Proceduralism	Script param staircase generator (step count)
-Texturing	Substance pass for edge wear & breakup
-Presentation	Add wireframe overlay & UV layout sheet
+**Color Accents**  
+Restrained festive greens and reds punctuate neutral tones, guiding attention without distraction.
 
-🚀 How to Use / View
-Open scenes/impossible_staircase_final.mb in Maya.
+## 🧠 Reflection / Future Improvements
 
-Play timeline (ensure MASH plugins loaded) to preview bounce + snow.
+| Area | Next Step |
+|------|-----------|
+| Materials | Add micro‑roughness / variation maps for extra realism |
+| Animation | Refine squash & stretch timing; introduce subtle secondary motion |
+| FX | Add very light interior volumetric / thin god ray for depth |
+| Proceduralism | Script parameterised staircase generator (step count, curvature) |
+| Texturing | Substance pass for edge wear, dirt breakup, slight color variation |
+| Presentation | Add wireframe overlay & UV layout sheet renders |
 
-Render turntable with Arnold (swap HDRI if desired).
+## 🚀 How to Use / View
 
-View exports/turntable.mp4 or assets/turntable.gif for quick preview.
+1. Open `scenes/impossible_staircase_final.mb` in Maya (matching version or later).  
+2. Play the timeline (ensure **MASH** plugins are loaded) to preview bounce + snow dynamics.  
+3. Render the turntable with Arnold (swap / adjust HDRI if desired).  
+4. View quick results: `exports/turntable.mp4` or `assets/turntable.gif`.  
+5. Read `docs/design_process.pdf` for detailed process notes.  
 
-Read docs/design_process.pdf for process notes.
+## 🗃 Large / Optional Assets
 
-🗃 Large / Optional Assets
-If large raw assets were removed (e.g. original .mov, caches), host them via GitHub Release or cloud:
+If large raw assets (original `.mov`, simulation caches, hi‑res ProRes turntable) were excluded to meet GitHub size limits, host them via **GitHub Release assets** or cloud storage and list them here:
 
-Asset	Location / Link	Notes
-High‑res turntable (ProRes)	(Release tag or link)	Not in repo
-Raw simulation cache	(link)	Optional
+| Asset | Location / Link | Notes |
+|-------|-----------------|-------|
+| High‑res turntable (ProRes) | *(Release tag or link)* | Not in repo |
+| Raw simulation cache | *(link)* | Optional |
 
-📚 References & Inspiration
-Cheng, J.-H. et al. (2021) Impossible Staircase: Vertically Real Walking in an Infinite Virtual Tower. IEEE VR.
+## 📚 References & Inspiration
 
-Wikipedia Contributors (2021) Ascending and Descending. https://en.wikipedia.org/wiki/Ascending_and_Descending
+- Cheng, J.-H. *et al.* (2021). *Impossible Staircase: Vertically Real Walking in an Infinite Virtual Tower.* IEEE VR.  
+- Wikipedia Contributors (2021). *Ascending and Descending.* https://en.wikipedia.org/wiki/Ascending_and_Descending  
+- Penrose / Escher illusion concepts – educational reinterpretation.  
+- Big Ben photographic references (public / study use).  
 
-Penrose Steps / Escher illusion concepts – educational reinterpretation.
+> Reference images are used strictly for **educational look‑dev purposes** and not for commercial redistribution.
 
-Big Ben photographic references (public / study use).
+## 👤 Author
 
-Reference images are used strictly for educational look‑dev purposes and not for commercial redistribution.
+**Flora Xohrat**  
+MSc Computer Animation & VFX – Bournemouth University  
+GitHub: [Flora9822](https://github.com/Flora9822)  
 
-👤 Author
-Flora Xohrat
-MSc Computer Animation & VFX – Bournemouth University
-GitHub: Flora9822
-
-Academic modeling & presentation exercise exploring illusion architecture, procedural instancing, and cinematic look‑dev.
-
-
----
+*Academic modeling & presentation exercise exploring illusion architecture, procedural instancing, and cinematic look‑dev.*
