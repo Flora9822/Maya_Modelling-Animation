@@ -1,0 +1,24 @@
+# Maya temp / autosave / logs
+*.ma~
+*.mb~
+*_autosave*.mb
+*.log
+*.swp
+autosave/
+temp/
+cache/
+data/
+renderData/
+images/
+
+# Viewport / playblast caches
+*.iff
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python virtual env
+.venv/
