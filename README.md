@@ -31,32 +31,6 @@ This project demonstrates **clean topology, procedural / iterative modeling, Arn
 
 ---
 
-## 🗂 Folder Structure
-
-.
-├── scenes/
-│ └── impossible_staircase_final.mb
-├── exports/
-│ ├── turntable.mp4
-│ └── (turntable_raw.mov - optional / may be excluded)
-├── assets/
-│ ├── glass_foundation.jpg
-│ ├── tree_texture.jpg
-│ ├── tree_texture2.jpg
-│ ├── clock_front.jpg
-│ ├── background_cat.jpg # (reference / placeholder)
-│ ├── ball_texture.png
-│ └── turntable.gif
-├── docs/
-│ └── design_process.pdf
-├── .gitignore
-└── README.md
-
-
-> Rename any generic filenames to descriptive ones (e.g. `beauty_render_front.jpg`, `wireframe_overlay.jpg`, `uv_layout.jpg`) for maximum clarity.
-
----
-
 ## 🔧 Technical Breakdown
 
 | Aspect | Details (fill in where marked) |
@@ -145,14 +119,6 @@ Restrained festive greens and reds punctuate neutral tones, guiding attention wi
 4. View quick results: `exports/turntable.mp4` or `assets/turntable.gif`.  
 5. Read `docs/design_process.pdf` for detailed process notes.  
 
-## 🗃 Large / Optional Assets
-
-If large raw assets (original `.mov`, simulation caches, hi‑res ProRes turntable) were excluded to meet GitHub size limits, host them via **GitHub Release assets** or cloud storage and list them here:
-
-| Asset | Location / Link | Notes |
-|-------|-----------------|-------|
-| High‑res turntable (ProRes) | *(Release tag or link)* | Not in repo |
-| Raw simulation cache | *(link)* | Optional |
 
 ## 📚 References & Inspiration
 
