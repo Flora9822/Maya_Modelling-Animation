@@ -15,7 +15,6 @@ This project demonstrates **clean topology, procedural / iterative modeling, Arn
 
 <video src="exports/turntable.mp4" width="480" loop muted playsinline controls></video>
 
-*If inline video does not play, see the animated GIF below or download the MP4.*
 
 ![Turntable GIF](assets/turntable.gif)
 
@@ -38,14 +37,11 @@ This project demonstrates **clean topology, procedural / iterative modeling, Arn
 | Software | Autodesk Maya (Version: **20XX / 2024** ) |
 | Renderer | Arnold |
 | Scene File | `scenes/impossible_staircase_final.mb` |
-| Poly Count (total scene) | *(fill in)* |
-| Poly Count (stair module) | *(fill in)* |
-| Snowflake Instances | *(fill in)* |
 | Turntable Frames | 240 @ 24 fps (10 s) |
 | Output Resolution | 1920 × 1080 (MP4 optimized: 960 × 540 preview) |
 | FX | MASH instancing + Bullet dynamics + Turbulence field |
 | Shaders | aiStandardSurface (glass, metals, painted surfaces), lambert (base), texture maps |
-| Lighting | aiSkyDomeLight (environment), aiAreaLight(s) for key & fill |
+| Lighting | aiSkyDomeLight (environment), aiAreaLight(s)  |
 | Composition | Rule‑of‑thirds focal placement / depth layering |
 | Deliverables | Beauty, texture previews, turntable video, process PDF |
 
