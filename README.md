@@ -32,8 +32,7 @@ This project demonstrates **clean topology, procedural / iterative modeling, Arn
 
 ## 🔧 Technical Breakdown
 
-| Aspect | Details )
-|
+| Aspect | Details |
 |--------|--------------------------------|
 | Software | Autodesk Maya (Version: / 2024** ) |
 | Renderer | Arnold |
