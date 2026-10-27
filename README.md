@@ -32,9 +32,10 @@ This project demonstrates **clean topology, procedural / iterative modeling, Arn
 
 ## 🔧 Technical Breakdown
 
-| Aspect | Details (fill in where marked) |
+| Aspect | Details )
+|
 |--------|--------------------------------|
-| Software | Autodesk Maya (Version: **20XX / 2024** ) |
+| Software | Autodesk Maya (Version: / 2024** ) |
 | Renderer | Arnold |
 | Scene File | `scenes/impossible_staircase_final.mb` |
 | Turntable Frames | 240 @ 24 fps (10 s) |
